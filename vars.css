@@ -1,0 +1,282 @@
+/* Figma Styles of your File */
+:root {
+  /* Colors */
+  --tiroooo-athens-gray: #f4f4f5;
+  --tiroooo-athens-gray: #f8fafc;
+  --tiroooo-athens-gray: #e5e7eb;
+  --tiroooo-black: #000000;
+  --tiroooo-black-59: rgba(0, 0, 0, 0.59);
+  --tiroooo-buttery-white: #f4f4f5;
+  --tiroooo-catskill-white: #f8fafc;
+  --tiroooo-christi: #65a30d;
+  --tiroooo-cod-gray: #18181b;
+  --tiroooo-ebony: #111827;
+  --tiroooo-gray-chateau: #9ca3af;
+  --tiroooo-iron: #d4d4d8;
+  --tiroooo-jewel: #166534;
+  --tiroooo-jumbo: #71717a;
+  --tiroooo-magnolia: #f8fafc;
+  --tiroooo-mercury-40: rgba(229, 229, 229, 0.4);
+  --tiroooo-mimosa: #ecfccb;
+  --tiroooo-mine-shaft: #212121;
+  --tiroooo-mine-shaft: #262626;
+  --tiroooo-santas-gray: #a1a1aa;
+  --tiroooo-scandal: #dcfce7;
+  --tiroooo-scarpa-flow: #52525b;
+  --tiroooo-shark: #27272a;
+  --tiroooo-ship-gray: #3f3f46;
+  --tiroooo-silver-chalice: #a3a3a3;
+  --tiroooo-swiss-coffee: #d6d3d1;
+  --tiroooo-white: #ffffff;
+  --tiroooo-white-60: rgba(255, 255, 255, 0.6);
+  --tiroooo-woodsmoke: #18181b;
+
+  /* Fonts */
+  --tiroooo-semantic-button-font-family: PretendardVariable-Regular, sans-serif;
+  --tiroooo-semantic-button-font-size: 16px;
+  --tiroooo-semantic-button-line-height: 24px;
+  --tiroooo-semantic-button-font-weight: 400;
+  --tiroooo-semantic-button-font-style: normal;
+  --tiroooo-semantic-heading-2-font-family: PretendardVariable-Regular,
+    sans-serif;
+  --tiroooo-semantic-heading-2-font-size: 30px;
+  --tiroooo-semantic-heading-2-line-height: 36px;
+  --tiroooo-semantic-heading-2-font-weight: 400;
+  --tiroooo-semantic-heading-2-font-style: normal;
+  --tiroooo-semantic-heading-2-font-family: PretendardVariable-Regular,
+    sans-serif;
+  --tiroooo-semantic-heading-2-font-size: 30px;
+  --tiroooo-semantic-heading-2-line-height: 36px;
+  --tiroooo-semantic-heading-2-font-weight: 400;
+  --tiroooo-semantic-heading-2-font-style: normal;
+  --tiroooo-semantic-heading-1-font-family: PretendardVariable-Medium,
+    sans-serif;
+  --tiroooo-semantic-heading-1-font-size: 60px;
+  --tiroooo-semantic-heading-1-line-height: 60px;
+  --tiroooo-semantic-heading-1-font-weight: 500;
+  --tiroooo-semantic-heading-1-font-style: normal;
+  --tiroooo-semantic-heading-2-font-family: PretendardVariable-Regular,
+    sans-serif;
+  --tiroooo-semantic-heading-2-font-size: 48px;
+  --tiroooo-semantic-heading-2-line-height: 48px;
+  --tiroooo-semantic-heading-2-font-weight: 400;
+  --tiroooo-semantic-heading-2-font-style: normal;
+  --tiroooo-semantic-heading-2-font-family: PretendardVariable-Medium,
+    sans-serif;
+  --tiroooo-semantic-heading-2-font-size: 48px;
+  --tiroooo-semantic-heading-2-line-height: 48px;
+  --tiroooo-semantic-heading-2-font-weight: 500;
+  --tiroooo-semantic-heading-2-font-style: normal;
+  --tiroooo-semantic-heading-3-font-family: PretendardVariable-SemiBold,
+    sans-serif;
+  --tiroooo-semantic-heading-3-font-size: 16px;
+  --tiroooo-semantic-heading-3-line-height: 24px;
+  --tiroooo-semantic-heading-3-font-weight: 600;
+  --tiroooo-semantic-heading-3-font-style: normal;
+  --tiroooo-semantic-heading-3-font-family: PretendardVariable-Regular,
+    sans-serif;
+  --tiroooo-semantic-heading-3-font-size: 20px;
+  --tiroooo-semantic-heading-3-line-height: 28px;
+  --tiroooo-semantic-heading-3-font-weight: 400;
+  --tiroooo-semantic-heading-3-font-style: normal;
+  --tiroooo-semantic-heading-3-font-family: PretendardVariable-Medium,
+    sans-serif;
+  --tiroooo-semantic-heading-3-font-size: 20px;
+  --tiroooo-semantic-heading-3-line-height: 28px;
+  --tiroooo-semantic-heading-3-font-weight: 500;
+  --tiroooo-semantic-heading-3-font-style: normal;
+  --tiroooo-semantic-heading-2-font-family: PretendardVariable-Regular,
+    sans-serif;
+  --tiroooo-semantic-heading-2-font-size: 36px;
+  --tiroooo-semantic-heading-2-line-height: 40px;
+  --tiroooo-semantic-heading-2-font-weight: 400;
+  --tiroooo-semantic-heading-2-font-style: normal;
+  --tiroooo-semantic-heading-3-font-family: PretendardVariable-Regular,
+    sans-serif;
+  --tiroooo-semantic-heading-3-font-size: 36px;
+  --tiroooo-semantic-heading-3-line-height: 40px;
+  --tiroooo-semantic-heading-3-font-weight: 400;
+  --tiroooo-semantic-heading-3-font-style: normal;
+  --tiroooo-semantic-link-font-family: PretendardVariable-SemiBold, sans-serif;
+  --tiroooo-semantic-link-font-size: 16px;
+  --tiroooo-semantic-link-line-height: 24px;
+  --tiroooo-semantic-link-font-weight: 600;
+  --tiroooo-semantic-link-font-style: normal;
+  --tiroooo-georgia-regular-font-family: Georgia-Regular, sans-serif;
+  --tiroooo-georgia-regular-font-size: 20px;
+  --tiroooo-georgia-regular-line-height: 28px;
+  --tiroooo-georgia-regular-font-weight: 400;
+  --tiroooo-georgia-regular-font-style: normal;
+  --tiroooo-pretendard-variable-light-font-family: PretendardVariable-Light,
+    sans-serif;
+  --tiroooo-pretendard-variable-light-font-size: 16px;
+  --tiroooo-pretendard-variable-light-line-height: 24px;
+  --tiroooo-pretendard-variable-light-font-weight: 300;
+  --tiroooo-pretendard-variable-light-font-style: normal;
+  --tiroooo-pretendard-variable-light-font-family: PretendardVariable-Light,
+    sans-serif;
+  --tiroooo-pretendard-variable-light-font-size: 18px;
+  --tiroooo-pretendard-variable-light-line-height: 28px;
+  --tiroooo-pretendard-variable-light-font-weight: 300;
+  --tiroooo-pretendard-variable-light-font-style: normal;
+  --tiroooo-pretendard-variable-light-font-family: PretendardVariable-Light,
+    sans-serif;
+  --tiroooo-pretendard-variable-light-font-size: 30px;
+  --tiroooo-pretendard-variable-light-line-height: 36px;
+  --tiroooo-pretendard-variable-light-font-weight: 300;
+  --tiroooo-pretendard-variable-light-font-style: normal;
+  --tiroooo-pretendard-variable-medium-font-family: PretendardVariable-Medium,
+    sans-serif;
+  --tiroooo-pretendard-variable-medium-font-size: 12px;
+  --tiroooo-pretendard-variable-medium-line-height: 16px;
+  --tiroooo-pretendard-variable-medium-font-weight: 500;
+  --tiroooo-pretendard-variable-medium-font-style: normal;
+  --tiroooo-pretendard-variable-medium-font-family: PretendardVariable-Medium,
+    sans-serif;
+  --tiroooo-pretendard-variable-medium-font-size: 14px;
+  --tiroooo-pretendard-variable-medium-line-height: 20px;
+  --tiroooo-pretendard-variable-medium-font-weight: 500;
+  --tiroooo-pretendard-variable-medium-font-style: normal;
+  --tiroooo-pretendard-variable-medium-font-family: PretendardVariable-Medium,
+    sans-serif;
+  --tiroooo-pretendard-variable-medium-font-size: 14px;
+  --tiroooo-pretendard-variable-medium-line-height: 21px;
+  --tiroooo-pretendard-variable-medium-font-weight: 500;
+  --tiroooo-pretendard-variable-medium-font-style: normal;
+  --tiroooo-pretendard-variable-medium-font-family: PretendardVariable-Medium,
+    sans-serif;
+  --tiroooo-pretendard-variable-medium-font-size: 14px;
+  --tiroooo-pretendard-variable-medium-line-height: 21px;
+  --tiroooo-pretendard-variable-medium-font-weight: 500;
+  --tiroooo-pretendard-variable-medium-font-style: normal;
+  --tiroooo-pretendard-variable-medium-font-family: PretendardVariable-Medium,
+    sans-serif;
+  --tiroooo-pretendard-variable-medium-font-size: 16px;
+  --tiroooo-pretendard-variable-medium-line-height: 24px;
+  --tiroooo-pretendard-variable-medium-font-weight: 500;
+  --tiroooo-pretendard-variable-medium-font-style: normal;
+  --tiroooo-pretendard-variable-medium-font-family: PretendardVariable-Medium,
+    sans-serif;
+  --tiroooo-pretendard-variable-medium-font-size: 18px;
+  --tiroooo-pretendard-variable-medium-line-height: 28px;
+  --tiroooo-pretendard-variable-medium-font-weight: 500;
+  --tiroooo-pretendard-variable-medium-font-style: normal;
+  --tiroooo-pretendard-variable-medium-font-family: PretendardVariable-Medium,
+    sans-serif;
+  --tiroooo-pretendard-variable-medium-font-size: 30px;
+  --tiroooo-pretendard-variable-medium-line-height: 36px;
+  --tiroooo-pretendard-variable-medium-font-weight: 500;
+  --tiroooo-pretendard-variable-medium-font-style: normal;
+  --tiroooo-pretendard-variable-regular-font-family: PretendardVariable-Regular,
+    sans-serif;
+  --tiroooo-pretendard-variable-regular-font-size: 14px;
+  --tiroooo-pretendard-variable-regular-line-height: 20px;
+  --tiroooo-pretendard-variable-regular-font-weight: 400;
+  --tiroooo-pretendard-variable-regular-font-style: normal;
+  --tiroooo-pretendard-variable-regular-font-family: PretendardVariable-Regular,
+    sans-serif;
+  --tiroooo-pretendard-variable-regular-font-size: 14px;
+  --tiroooo-pretendard-variable-regular-line-height: 20px;
+  --tiroooo-pretendard-variable-regular-font-weight: 400;
+  --tiroooo-pretendard-variable-regular-font-style: normal;
+  --tiroooo-pretendard-variable-regular-font-family: PretendardVariable-Regular,
+    sans-serif;
+  --tiroooo-pretendard-variable-regular-font-size: 16px;
+  --tiroooo-pretendard-variable-regular-line-height: 24px;
+  --tiroooo-pretendard-variable-regular-font-weight: 400;
+  --tiroooo-pretendard-variable-regular-font-style: normal;
+  --tiroooo-pretendard-variable-regular-font-family: PretendardVariable-Regular,
+    sans-serif;
+  --tiroooo-pretendard-variable-regular-font-size: 16px;
+  --tiroooo-pretendard-variable-regular-line-height: 24px;
+  --tiroooo-pretendard-variable-regular-font-weight: 400;
+  --tiroooo-pretendard-variable-regular-font-style: normal;
+  --tiroooo-pretendard-variable-regular-font-family: PretendardVariable-Regular,
+    sans-serif;
+  --tiroooo-pretendard-variable-regular-font-size: 18px;
+  --tiroooo-pretendard-variable-regular-line-height: 28px;
+  --tiroooo-pretendard-variable-regular-font-weight: 400;
+  --tiroooo-pretendard-variable-regular-font-style: normal;
+  --tiroooo-pretendard-variable-regular-font-family: PretendardVariable-Regular,
+    sans-serif;
+  --tiroooo-pretendard-variable-regular-font-size: 18px;
+  --tiroooo-pretendard-variable-regular-line-height: 28px;
+  --tiroooo-pretendard-variable-regular-font-weight: 400;
+  --tiroooo-pretendard-variable-regular-font-style: normal;
+  --tiroooo-pretendard-variable-regular-underline-font-family: PretendardVariable-Regular,
+    sans-serif;
+  --tiroooo-pretendard-variable-regular-underline-font-size: 14px;
+  --tiroooo-pretendard-variable-regular-underline-line-height: 20px;
+  --tiroooo-pretendard-variable-regular-underline-font-weight: 400;
+  --tiroooo-pretendard-variable-regular-underline-font-style: normal;
+  --tiroooo-pretendard-variable-semibold-font-family: PretendardVariable-SemiBold,
+    sans-serif;
+  --tiroooo-pretendard-variable-semibold-font-size: 12px;
+  --tiroooo-pretendard-variable-semibold-line-height: 12px;
+  --tiroooo-pretendard-variable-semibold-font-weight: 600;
+  --tiroooo-pretendard-variable-semibold-font-style: normal;
+  --tiroooo-pretendard-variable-semibold-font-family: PretendardVariable-SemiBold,
+    sans-serif;
+  --tiroooo-pretendard-variable-semibold-font-size: 16px;
+  --tiroooo-pretendard-variable-semibold-line-height: 24px;
+  --tiroooo-pretendard-variable-semibold-font-weight: 600;
+  --tiroooo-pretendard-variable-semibold-font-style: normal;
+  --tiroooo-pretendard-variable-bold-font-family: PretendardVariable-Bold,
+    sans-serif;
+  --tiroooo-pretendard-variable-bold-font-size: 18px;
+  --tiroooo-pretendard-variable-bold-line-height: 28px;
+  --tiroooo-pretendard-variable-bold-font-weight: 700;
+  --tiroooo-pretendard-variable-bold-font-style: normal;
+  --tiroooo-pretendard-variable-bold-font-family: PretendardVariable-Bold,
+    sans-serif;
+  --tiroooo-pretendard-variable-bold-font-size: 24px;
+  --tiroooo-pretendard-variable-bold-line-height: 32px;
+  --tiroooo-pretendard-variable-bold-font-weight: 700;
+  --tiroooo-pretendard-variable-bold-font-style: normal;
+  --tiroooo-pretendard-variable-semibold-font-family: PretendardVariable-SemiBold,
+    sans-serif;
+  --tiroooo-pretendard-variable-semibold-font-size: 20px;
+  --tiroooo-pretendard-variable-semibold-line-height: 28px;
+  --tiroooo-pretendard-variable-semibold-font-weight: 600;
+  --tiroooo-pretendard-variable-semibold-font-style: normal;
+  --tiroooo-pretendard-variable-semibold-font-family: PretendardVariable-SemiBold,
+    sans-serif;
+  --tiroooo-pretendard-variable-semibold-font-size: 24px;
+  --tiroooo-pretendard-variable-semibold-line-height: 32px;
+  --tiroooo-pretendard-variable-semibold-font-weight: 600;
+  --tiroooo-pretendard-variable-semibold-font-style: normal;
+
+  /* Effects */
+}
+/* Figma Color Variables of your File */
+[data-tiroooo-mode="mode-1"] {
+  /* mode-1 */
+  --color-azure-11: #111827;
+  --color-white-solid: #ffffff;
+  --color-grey-13: #212121;
+  --color-black-solid: #000000;
+  --color-black-59: rgba(0, 0, 0, 0.59);
+  --color-grey-10: #18181b;
+  --color-grey-16: #27272a;
+  --color-grey-34: #52525b;
+  --color-grey-26: #3f3f46;
+  --color-grey-96: #f4f4f5;
+  --color-grey-65: #a1a1aa;
+  --color-grey-64: #a3a3a3;
+  --color-grey-15: #262626;
+  --color-azure-65: #9ca3af;
+  --color-chartreuse-green-89: #ecfccb;
+  --color-chartreuse-green-35: #65a30d;
+  --color-grey-98: #f8fafc;
+  --color-grey-91: #e5e7eb;
+  --color-grey-91-0: rgba(229, 231, 235, 0);
+  --color-grey-46: #71717a;
+  --color-white-0: rgba(255, 255, 255, 0);
+  --color-white-20: rgba(255, 255, 255, 0.2);
+  --color-white-60: rgba(255, 255, 255, 0.6);
+  --color-grey-90-40: rgba(229, 229, 229, 0.4);
+  --color-grey-93: #dcfce7;
+  --color-spring-green-24: #166534;
+  --color-grey-83: #d6d3d1;
+  --color-grey-84: #d4d4d8;
+}
